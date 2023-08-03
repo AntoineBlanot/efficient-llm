@@ -1,2 +1,2 @@
-# efficient-llm
-Training, Evaluation and Inference of LLMs
+# Efficient LLM
+Training, Evaluation and Inference of LLMs efficiently (low computational resources, high speed)
