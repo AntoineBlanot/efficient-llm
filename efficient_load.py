@@ -35,7 +35,7 @@ if __name__ == "__main__":
     tok = LlamaTokenizerFast.from_pretrained(checkpoint)
     inputs = tok(["Llama is the best"], return_tensors="pt")
     
-    outputs = model.generate(inputs.input_ids, max_new_tokens=50)
+    outputs = model.generate(inputs.input_ids, max_new_tokens=20)
     
     print(tok.decode(outputs[0], skip_special_tokens=True))
     
